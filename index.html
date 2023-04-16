@@ -5,12 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-
-    <link href="CSS/style.css" rel="stylesheet" />
     <link
       rel="stylesheet"
-      href="node_modules/modern-normalize/modern-normalize.css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
     />
+    <link href="CSS/style.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,24 +18,26 @@
     />
   </head>
   <body>
-    <header class="container header">
-      <div class="main-nav">
-        <a class="webstudio" href="index.html"
-          >Web<span class="studio-h">Studio</span></a
-        >
-        <ul class="menu">
-          <li><a class="links" href="#">Agencja</a></li>
-          <li>
-            <a class="links" href="./portfolio.html">Portfolio</a>
-          </li>
-          <li><a class="links" href="#">Kontakt</a></li>
-        </ul>
-        <div class="nav-contacts">
-          <a class="mail-h" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+    <header class="header">
+      <div class="container">
+        <div class="main-nav">
+          <a class="webstudio" href="index.html"
+            >Web<span class="studio-h">Studio</span></a
           >
+          <ul class="menu">
+            <li><a class="links" href="index.html">Agencja</a></li>
+            <li>
+              <a class="links" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li><a class="links" href="#">Kontakt</a></li>
+          </ul>
+          <div class="nav-contacts">
+            <a class="mail-h" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
 
-          <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+            <a class="tel" href="tel:+48111111111">+48 111 111 111</a>
+          </div>
         </div>
       </div>
     </header>
@@ -50,7 +51,7 @@
         </button>
       </section>
       <section class="container">
-        <div>
+        <div class="sec2">
           <ul class="ul-main1">
             <li>
               <h3 class="Ipsum-h">LOREM IPSUM</h3>
@@ -109,23 +110,31 @@
           <ul class="ul-main">
             <li class="img-sec3">
               <img alt="Man" src="images/4.jpg" width="270" height="260" />
-              <span class="name">John Doe</span>
-              <span class="job">Product Designer</span>
+              <div class="text-img-index">
+                <h4 class="name">John Doe</h4>
+                <p class="job">Product Designer</p>
+              </div>
             </li>
             <li class="img-sec3">
               <img alt="Woman" src="images/5.jpg" width="270" height="260" />
-              <span class="name">John Doe</span>
-              <span class="job">Frontend Developer</span>
+              <div class="text-img-index">
+                <h4 class="name">John Doe</h4>
+                <p class="job">Frontend Developer</p>
+              </div>
             </li>
             <li class="img-sec3">
               <img alt="Man" src="images/6.jpg" width="270" height="260" />
-              <span class="name">John Doe</span>
-              <span class="job">Marketing</span>
+              <div class="text-img-index">
+                <h4 class="name">John Doe</h4>
+                <p class="job">Marketing</p>
+              </div>
             </li>
             <li class="img-sec3">
               <img alt="Man" src="images/7.jpg" width="270" height="260" />
-              <span class="name">John Doe</span>
-              <span class="job">UI Designer</span>
+              <div class="text-img-index">
+                <h4 class="name">John Doe</h4>
+                <p class="job">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
