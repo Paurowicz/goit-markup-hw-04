@@ -111,11 +111,15 @@ img {
 }
 
 .s1 {
-  background: #2f303a;
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url(../images/tlo.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 200px 0;
   display: flex;
   flex-flow: column;
   align-items: center;
+  max-width: 1600px;
   margin-right: 0px;
 }
 
@@ -195,7 +199,7 @@ img {
 
 .text-img-index {
   text-align: center;
-  padding: 30px 30px 30px 30px;
+  padding: 30px 30px 0px 30px;
 
   display: flex;
   flex-wrap: wrap;
@@ -379,6 +383,151 @@ img {
   flex-direction: column;
   padding-left: 0px;
   padding-top: 60px;
+  margin-right: 0;
+  padding-bottom: 60px;
   gap: 9px;
   list-style-type: none;
+}
+
+.icons-2 {
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  fill: #afb1b8;
+  box-sizing: border-box;
+}
+
+.icons-2:hover {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.ul-main-3 {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.icons-1 {
+  height: 120px;
+  width: 270px;
+
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 25px 100px 25px 100px;
+  margin-bottom: 30px;
+}
+
+.img-p-h:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
+.team-1 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.sec5 {
+  padding: 94px 0 94px 0;
+}
+
+.team-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+
+.team-links {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #afb1b8;
+}
+
+.link-description {
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background: #ffffff;
+}
+
+.link-description:hover {
+  background: #2196f3;
+}
+
+.team-links:hover {
+  fill: #ffffff;
+}
+
+.socialmedia {
+  display: flex;
+  flex-direction: column;
+  padding: 72px 0 100px 70px;
+  gap: 20px;
+}
+
+.socialmedia-links {
+  width: 44px;
+  height: 44px;
+  padding: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #ffffff;
+}
+
+.socialmedia-description {
+  width: 44px;
+  height: 44px;
+
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.socialmedia-description:hover {
+  background: #2196f3;
+}
+
+.socialmedia-links:hover {
+  fill: #ffffff;
+}
+
+.text-footer {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.description-f {
+  display: flex;
+  flex-direction: row;
+}
+
+.text-socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
 }
