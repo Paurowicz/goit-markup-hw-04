@@ -48,7 +48,7 @@ img {
   display: flex;
   gap: 50px;
   align-items: center;
-  margin-left: 251px;
+  margin-left: 238px;
 }
 
 .webstudio {
@@ -90,6 +90,13 @@ img {
   letter-spacing: 0.02em;
 }
 
+.mail-icon {
+  height: 16px;
+  width: 21px;
+  vertical-align: middle;
+  margin-bottom: 3px;
+}
+
 .tel {
   font-weight: 500;
   font-size: 14px;
@@ -98,6 +105,13 @@ img {
   color: #757575;
   fill: #757575;
   text-decoration: none;
+}
+
+.tel-icon {
+  height: 16px;
+  width: 24px;
+  vertical-align: middle;
+  margin-bottom: 3px;
 }
 
 .tel:hover {
@@ -302,14 +316,17 @@ img {
 
 .button-p {
   background-color: #f5f4fa;
-  width: 121px;
-  height: 38px;
+  padding: 5px 15px 5px 15px;
   border: #f5f4fa;
   border-radius: 5px;
   text-decoration: none;
   transition-duration: 0.4s;
   display: inline-block;
   cursor: pointer;
+}
+
+.container-buttons {
+  padding-bottom: 34px;
 }
 
 .button-p:hover {
@@ -429,6 +446,7 @@ img {
 .img-p-h:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }
 
 .team-1 {
@@ -534,4 +552,14 @@ img {
   justify-content: center;
   align-items: center;
   gap: 10px;
+}
+
+.company:focus {
+  border: 1px solid var(#2196f3);
+  cursor: pointer;
+}
+
+.link-description:focus {
+  border: 1px solid var(#2196f3);
+  cursor: pointer;
 }
