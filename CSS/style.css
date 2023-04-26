@@ -619,3 +619,19 @@ img {
 
   color: #ffffff;
 }
+
+.underline {
+  position: relative;
+}
+
+.underline:hover::after {
+  content: "";
+  position: absolute;
+  width: 53px;
+  height: 4px;
+  border-radius: 2px;
+  background-color: #2196f3;
+  display: block;
+  margin-top: 28px;
+  transition: content 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
