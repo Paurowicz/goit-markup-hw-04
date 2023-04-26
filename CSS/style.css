@@ -120,8 +120,8 @@ img {
 }
 
 .tel:focus {
-  border: 1px solid var(#2196f3);
-  cursor: pointer;
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 .links:hover {
@@ -129,8 +129,7 @@ img {
 }
 
 .links:focus {
-  border: 1px solid var(#2196f3);
-  cursor: pointer;
+  color: #2196f3;
 }
 
 .mail-h:hover {
@@ -139,8 +138,8 @@ img {
 }
 
 .mail-h:focus {
-  border: 1px solid var(#2196f3);
-  cursor: pointer;
+  color: #2196f3;
+  fill: #2196f3;
 }
 
 .s1 {
@@ -509,7 +508,8 @@ img {
   background: #2196f3;
 }
 
-.l .team-links:hover {
+.team-links:hover,
+.team-links:focus {
   fill: #ffffff;
 }
 
