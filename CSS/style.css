@@ -114,32 +114,34 @@ img {
   margin-bottom: 3px;
 }
 
-.tel:hover {
-  color: #2196f3;
-  fill: #2196f3;
-}
-
+.tel:hover,
 .tel:focus {
   color: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tel:hover svg,
+.tel:focus svg {
   fill: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.links:hover {
-  color: #2196f3;
-}
-
+.links:hover,
 .links:focus {
   color: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.mail-h:hover {
-  color: #2196f3;
-  fill: #2196f3;
-}
-
+.mail-h:hover,
 .mail-h:focus {
   color: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mail-h:hover svg,
+.mail-h:focus svg {
   fill: #2196f3;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .s1 {
@@ -428,17 +430,9 @@ img {
 .icons-2 {
   width: 170px;
   height: 92px;
-  border: 1px solid #afb1b8;
-  border-radius: 4px;
+
   fill: #afb1b8;
   box-sizing: border-box;
-}
-
-.icons-2:hover {
-  fill: #2196f3;
-  border: 1px solid #2196f3;
-  border-radius: 4px;
-  cursor: pointer;
 }
 
 .ul-main-3 {
@@ -504,15 +498,6 @@ img {
   background: #ffffff;
 }
 
-.link-description:hover {
-  background: #2196f3;
-}
-
-.team-links:hover,
-.team-links:focus {
-  fill: #ffffff;
-}
-
 .socialmedia {
   display: flex;
   flex-direction: column;
@@ -538,11 +523,13 @@ img {
   background: rgba(255, 255, 255, 0.1);
 }
 
-.socialmedia-description:hover {
+.socialmedia-description:hover,
+.socialmedia-description:focus {
   background: #2196f3;
 }
 
-.socialmedia-links:hover {
+.socialmedia-description:hover svg,
+.socialmedia-description:focus svg {
   fill: #ffffff;
 }
 
@@ -574,16 +561,61 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
 }
 
+.company:hover,
 .company:focus {
-  fill: #2196f3;
-  border: 1px solid #2196f3;
-  border-radius: 4px;
+  border-color: #2196f3;
   cursor: pointer;
 }
 
+.company:hover svg,
+.company:focus svg {
+  fill: #2196f3;
+}
+
+.link-description:hover,
 .link-description:focus {
   border: 1px solid var(#2196f3);
   cursor: pointer;
+  background: #2196f3;
+}
+
+.link-description:hover svg,
+.link-description:focus svg {
+  fill: #ffffff;
+}
+
+.img-sec-3 {
+  float: left;
+
+  position: relative;
+}
+
+.text-img-sec-3 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  padding: 27px 90px 27px 90px;
+  text-align: center;
+  top: 88%;
+  left: 50%;
+  font-size: 20px;
+  color: #fff;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.text-sec-3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: #ffffff;
 }
